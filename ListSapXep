@@ -1,0 +1,21 @@
+def  sap_xep_ds_tang ( danh sách ):
+    cho  tôi  trong  phạm vi ( len ( danh sách )):
+        temp  =  tôi
+        for  j  trong  range ( i  +  1 , len ( list )):
+            if  list [ j ] <  list [ temp ]:
+                temp  =  j
+        list [ i ], list [ temp ] =  list [ temp ], list [ i ]
+print ( "Nhap vao danh sach:" )
+
+danhSach  =  input (). tách ()
+
+if  len ( danhSach ) ==  0 :
+    print ( "Danh sach rong" )
+khác :
+    thử :
+        list  =  list ( map ( int , danhSach ))
+        sap_xep_ds_tang ( danh sách )
+        print ( * danh sách )
+    ngoại trừ :
+        print ( "Vui long nhap cac phan tu la so thuc!" )
+© 2021 GitHub, Inc.
