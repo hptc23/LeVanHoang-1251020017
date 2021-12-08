@@ -17,5 +17,4 @@ khác :
         sap_xep_ds_tang ( danh sách )
         print ( * danh sách )
     ngoại trừ :
-        print ( "Vui long nhap cac phan tu la so thuc!" )
-© 2021 GitHub, Inc.
+        print ( "Vui long nhap cac phan tu la so thuc!" 
